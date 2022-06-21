@@ -14,22 +14,25 @@ const division=(a,b)=>{
 
 while (true) {
     const question = Number(prompt('Welcome to my calculator!!!.\n Press 1 for addition.  \n Press 2 for subtraction. \n Press 3 for multiplication. \n Press 4 for division. '))
+  
+
+
     if (question === 1) {
         let a = Number(prompt('first number'))
         let b = Number(prompt('second number'))
+        
         alert(addition(a, b))
         break
     }
 
-    else if (question == 2) {
+    else if (question === 2) {
         let a = Number(prompt('first number'))
         let b = Number(prompt('second number'))
         alert(subtraction(a, b))
         break
-
     }
 
-    else if (question == 3) {
+    else if (question === 3) {
         let a = Number(prompt('first number'))
         let b = Number(prompt('second number'))
         alert(multiplication(a, b))
@@ -37,7 +40,7 @@ while (true) {
 
     }
 
-    else if (question == 4) {
+    else if (question === 4) {
         let a = Number(prompt('first number'))
         let b = Number(prompt('second number'))
         alert(division(a, b))
